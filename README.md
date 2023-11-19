@@ -1,7 +1,7 @@
 # Exercicios3
 
 **Número da Lista**: 4<br>
-**Conteúdo da Disciplina**: Merge, Mediana<br>
+**Conteúdo da Disciplina**: Merge e Contagem de Inversões<br>
 
 ## Alunos
 
@@ -17,6 +17,7 @@ Exercícios resolvidos no Leetcode:
 | Exercício                                                                                                               | Juiz Online                       |           Autor da Resolução            |
 | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
 | [4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Leetcode](https://leetcode.com/)     | [Arthur](https://github.com/arthurmlv)  |
+| [315 - Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Leetcode](https://leetcode.com/)     | [Arthur](https://github.com/arthurmlv)  |
 
 ## Screenshots
 
@@ -24,8 +25,17 @@ As seções a seguir explicitam os exercícios resolvidos e apresentam uma breve
 
 ### 4 - Median of Two Sorted Arrays (Hard)
 
+Para resolver este exercício, fez-se o uso parcial da função merge até metade do vetor para encontrar a mediana dos dois vetores ordenados.
+
 ![Imagem MAXSPLIT](assets/4.png)
 ![Imagem MAXSPLIT1](assets/4enun.png)
+
+### 315 - Count of Smaller Numbers After Self (Hard)
+
+A resolução deste exercício é feita por meio do algoritmo de contagem de inversões, o qual se trata de uma modificação do mergesort que realiza a contagem das inversões ao mesmo tempo que o vetor é ordenado. No entanto, como queria-se o valor específico das inversões de cada item do vetor, fez-se outra modificação para guardar a posição e a quantidade de inversões mesmo ao ordenar o vetor.
+
+![Imagem MAXSPLIT](assets/315.png)
+![Imagem MAXSPLIT1](assets/315enun.png)
 
 
 ## Instalação
