@@ -14,10 +14,11 @@
 
 Exercícios resolvidos no Leetcode:
 
-| Exercício                                                                                                               | Juiz Online                       |           Autor da Resolução            |
-| ----------------------------------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
-| [4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Leetcode](https://leetcode.com/)     | [Arthur](https://github.com/arthurmlv)  |
-| [315 - Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Leetcode](https://leetcode.com/)     | [Arthur](https://github.com/arthurmlv)  |
+| Exercício                                                                                                       | Juiz Online                       |           Autor da Resolução            |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
+| [4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                   | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [315 - Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [218 - The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                 | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
 ## Screenshots
 
@@ -36,7 +37,6 @@ A resolução deste exercício é feita por meio do algoritmo de contagem de inv
 
 ![Imagem MAXSPLIT](assets/315.png)
 ![Imagem MAXSPLIT1](assets/315enun.png)
-
 
 ## Instalação
 
