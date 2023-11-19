@@ -3,26 +3,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:            
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        # Verificando se  lista esta vazia
-        if not lists or len(lists) == 0:
-            return None
-          
-        while len(lists) > 1:
-            listaMergada = []
-
-            for i in range(0, len(lists), 2):
-                lista1 = lists[i]
-                if (i+1) < len(lists):
-                    lista2 = lists[i+1]
-
-                listaMergada.append(self.merge(lista1, lista2))
-            
-            lists = listaMergada
-    
-        return lists[0]
-    
+class Solution: 
     def merge(self, lista1, lista2):
         cabeca = ListNode()
         ultimo = cabeca
@@ -42,3 +23,22 @@ class Solution:
             ultimo.next = lista2
 
         return cabeca.next
+             
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+
+        if not lists or len(lists) == 0:
+            return None
+          
+        while len(lists) > 1:
+            listaMergada = []
+
+            for i in range(0, len(lists), 2):
+                
+                lista1 = lists[i]
+                lista2 = lists[i+1] if (i+1) < len(lists) else None
+
+                listaMergada.append(self.merge(lista1, lista2))
+            
+            lists = listaMergada
+    
+        return lists[0]
