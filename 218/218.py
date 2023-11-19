@@ -1,5 +1,4 @@
 import heapq
-from sortedcontainers import SortedList
 
 class Solution:
     def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
@@ -42,5 +41,3 @@ class Solution:
                 skyline.append((xAtual, alturas[-1]))
 
         return skyline
-
-            
