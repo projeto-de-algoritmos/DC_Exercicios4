@@ -30,22 +30,22 @@ As seções a seguir explicitam os exercícios resolvidos e apresentam uma breve
 
 Para resolver este exercício, fez-se o uso parcial da função merge até metade do vetor para encontrar a mediana dos dois vetores ordenados.
 
-![Imagem MAXSPLIT](assets/4.png)
-![Imagem MAXSPLIT1](assets/4enun.png)
+![Imagem Median4](assets/4.png)
+![Imagem Median](assets/4enun.png)
 
 ### 315 - Count of Smaller Numbers After Self (Hard)
 
 A resolução deste exercício é feita por meio do algoritmo de contagem de inversões, o qual se trata de uma modificação do mergesort que realiza a contagem das inversões ao mesmo tempo que o vetor é ordenado. No entanto, como queria-se o valor específico das inversões de cada item do vetor, fez-se outra modificação para guardar a posição e a quantidade de inversões mesmo ao ordenar o vetor.
 
-![Imagem MAXSPLIT](assets/315.png)
-![Imagem MAXSPLIT1](assets/315enun.png)
+![Imagem Count of smaller](assets/315.png)
+![Imagem Count of smaller1](assets/315enun.png)
 
 ### 493 - Reverse Pairs (Hard)
 
 A resolução deste exercício também é composta pelo algoritmo de contagem de inversões, o qual se trata de uma modificação do mergesort que realiza a contagem das inversões ao mesmo tempo que o vetor é ordenado. No entanto, para este exercício, realiza-se uma verificação das inversões, dada pela definição no enunciado, sendo um número maior que duas vezes o número sendo comparado. Após essa verificação, o merge é feito normalmente.
 
-![Imagem MAXSPLIT](assets/493.png)
-![Imagem MAXSPLIT1](assets/4935enun.png)
+![Imagem Reverse](assets/493.png)
+![Imagem Reverse1](assets/493enun.png)
 
 
 ### 218 - The Skyline Problem (Hard)
