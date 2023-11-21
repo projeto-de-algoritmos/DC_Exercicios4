@@ -50,21 +50,21 @@ A resolução deste exercício também é composta pelo algoritmo de contagem de
 
 ### 218 - The Skyline Problem (Hard)
 
-A resolução deste exercício ...
+A resolução deste exercício foi feita utilizando a lógica do algoritmo de contagem de inversões. Nela um vetor com coordenadas de pontos que representam as silhuetas de prédios em um plano devem ser mescladas para formar um horizonte. Porém, nesse problema não ocorre a necessidade de contar as inversões, mas sim anotar as coordenadas onde ocorrem essas inversões que é sempre na mudança de altura. Portanto, as coordenadas foram divididas em duas, as que tratam de início de uma determinada altura e as de fim. Essas coordenadas foram ordenadas e comparadas, sendo posteriormente guardadas em um vetor que contém a silhueta final. Vale ressaltar que prédio que são vizinhos e possuem a mesma altura, são tratados como sendo uma única construção.
 
 ![Imagem do enunciado do problema 218 - The Skyline Problem](assets/218/enunciado218.png)
 ![Imagem da submissão aceita do problema 218](assets/218/218.png)
 
 ### 23 - Merge k Sorted Lists (Hard)
 
-A resolução deste exercício ...
+A resolução deste exercício foi feita utilizando uma modificação do algoritmo do mergesort. Nela as listas encadeadas fornecidas são mesclar em uma única lista, portanto, a função _merge_ foi modificada para _'mergear'_ essas listas ao mesmo tempo que ordena os elementos.
 
 ![Imagem do enunciado do problema 23 - Merge k Sorted Lists](assets/23/enunciado23.png)
 ![Imagem da submissão aceita do problema 23](assets/23/23.png)
 
 ### 918 - Maximum Sum Circular Subarray (Medium)
 
-A resolução deste exercício ...
+A resolução deste exercício foi feita utilizando a lógica do algoritmo de contagem de inversão. Nela o vetor contendo os números é percorrido e é feita comparações nas quais é verificado quais números formam o máximo global, o mínimo globais e a maior soma entre os números. Esses valores são comparados no final para verificar quem é o maior, o máximo global ou a maior soma menos o mínimo global.
 
 ![Imagem do enunciado do problema 918 - Medium](assets/918/enunciado918.png)
 ![Imagem da submissão aceita do problema 918](assets/918/918.png)
