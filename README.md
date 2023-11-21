@@ -18,9 +18,10 @@ Exercícios resolvidos no Leetcode:
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
 | [4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                   | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [315 - Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
-| [493 - Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [493 - Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)                                             | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [218 - The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                 | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 | [23 - Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| [918 - Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
 ## Screenshots
 
@@ -47,7 +48,6 @@ A resolução deste exercício também é composta pelo algoritmo de contagem de
 ![Imagem Reverse](assets/493.png)
 ![Imagem Reverse1](assets/493enun.png)
 
-
 ### 218 - The Skyline Problem (Hard)
 
 A resolução deste exercício ...
@@ -61,6 +61,13 @@ A resolução deste exercício ...
 
 ![Imagem do enunciado do problema 23 - Merge k Sorted Lists](assets/23/enunciado23.png)
 ![Imagem da submissão aceita do problema 23](assets/23/23.png)
+
+### 918 - Maximum Sum Circular Subarray (Medium)
+
+A resolução deste exercício ...
+
+![Imagem do enunciado do problema 918 - Medium](assets/918/enunciado918.png)
+![Imagem da submissão aceita do problema 918](assets/918/918.png)
 
 ## Instalação
 
