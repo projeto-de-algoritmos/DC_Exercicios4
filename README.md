@@ -18,6 +18,7 @@ Exercícios resolvidos no Leetcode:
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
 | [4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                   | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [315 - Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [493 - Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [218 - The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                 | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 | [23 - Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
@@ -29,15 +30,23 @@ As seções a seguir explicitam os exercícios resolvidos e apresentam uma breve
 
 Para resolver este exercício, fez-se o uso parcial da função merge até metade do vetor para encontrar a mediana dos dois vetores ordenados.
 
-![Imagem MAXSPLIT](assets/4.png)
-![Imagem MAXSPLIT1](assets/4enun.png)
+![Imagem Median4](assets/4.png)
+![Imagem Median](assets/4enun.png)
 
 ### 315 - Count of Smaller Numbers After Self (Hard)
 
 A resolução deste exercício é feita por meio do algoritmo de contagem de inversões, o qual se trata de uma modificação do mergesort que realiza a contagem das inversões ao mesmo tempo que o vetor é ordenado. No entanto, como queria-se o valor específico das inversões de cada item do vetor, fez-se outra modificação para guardar a posição e a quantidade de inversões mesmo ao ordenar o vetor.
 
-![Imagem MAXSPLIT](assets/315.png)
-![Imagem MAXSPLIT1](assets/315enun.png)
+![Imagem Count of smaller](assets/315.png)
+![Imagem Count of smaller1](assets/315enun.png)
+
+### 493 - Reverse Pairs (Hard)
+
+A resolução deste exercício também é composta pelo algoritmo de contagem de inversões, o qual se trata de uma modificação do mergesort que realiza a contagem das inversões ao mesmo tempo que o vetor é ordenado. No entanto, para este exercício, realiza-se uma verificação das inversões, dada pela definição no enunciado, sendo um número maior que duas vezes o número sendo comparado. Após essa verificação, o merge é feito normalmente.
+
+![Imagem Reverse](assets/493.png)
+![Imagem Reverse1](assets/493enun.png)
+
 
 ### 218 - The Skyline Problem (Hard)
 
